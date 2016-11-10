@@ -1,0 +1,14 @@
+
+config shadowsocksr
+	option server_port '8388'
+	option method 'rc4-md5'
+	option plugin_param '0'
+	option gfwlist 'china-banned'
+	option server 'openwrt.com'
+	option password 'fuckgfw'
+	option more '0'
+	option safe_dns '8.8.8.8'
+	option safe_dns_port '53'
+	option safe_dns_tcp '1'
+	option proxy_mode 'S'
+	option enabled '0'
